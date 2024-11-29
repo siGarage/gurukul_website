@@ -25,10 +25,10 @@ function defaultCatch(error, resolve) {
 
 export default class CategoryImage {
   //log in
-  static fetchCategoryImage() {
+  static fetchCategoryImage(data) {
     return new Promise((resolve) => {
       instance
-        .get("/getCategoryImage")
+        .post("/getCategoryImageById", data)
         .then((response) => {
           resolve(response);
         })

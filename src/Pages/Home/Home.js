@@ -332,7 +332,7 @@ function Home(props) {
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
                             <a href="/courseType/673b6fcf903ff9606eb48243/Computer Training">
-                              Apply  Now
+                              Apply Now
                             </a>
                           </div>
                           {/* <div class="course_price ml-auto">
@@ -341,7 +341,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="/courseType/673b6fcf903ff9606eb48243/Computer Training">
+                            <a href="/courseType/0/Computer Training">
                               Computer Training
                             </a>
                           </h3>
@@ -367,12 +367,14 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={o_a_t} alt="" height="300px"/>
+                        <img src={o_a_t} alt="" height="300px" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/1/Online Accounting, Taxation(GST)">
+                              Apply Now
+                            </a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -403,12 +405,14 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={m_s_b} alt="" height="300"/>
+                        <img src={m_s_b} alt="" height="300" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/2/How to set up manufacturing/service/business unit">
+                              Apply Now
+                            </a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -442,12 +446,12 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={e} alt="" height="300"/>
+                        <img src={e} alt="" height="300" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/3/E-commerce">Apply Now</a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -475,12 +479,12 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={r_p_s} alt="" height="300"/>
+                        <img src={r_p_s} alt="" height="300" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/4/Recruitment and Placement Services">Apply Now</a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -510,12 +514,12 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={c_c} alt="" height="300"/>
+                        <img src={c_c} alt="" height="300" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/5/Career Counselling">Apply Now</a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -543,12 +547,12 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={l_s} alt="" height="300"/>
+                        <img src={l_s} alt="" height="300" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/6/Legal Services">Apply Now</a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -576,12 +580,12 @@ function Home(props) {
                   <div class="owl-item">
                     <div class="course">
                       <div class="course_image">
-                        <img src={f_s} alt="" height="300"/>
+                        <img src={f_s} alt="" height="300" />
                       </div>
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/7/Financial Services">Apply Now</a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>
@@ -614,7 +618,7 @@ function Home(props) {
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="#">Apply  Now</a>
+                            <a href="/courseType/8/Social And Cultural Activities">Apply Now</a>
                           </div>
                           {/* <div class="course_price ml-auto">
                             Price: <span>$35</span>

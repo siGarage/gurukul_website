@@ -21,7 +21,10 @@ function About(props) {
   const { categoryImage, logged_in } = props;
   useEffect(() => {
     if (categoryImage?.length === 0) {
-      CategoryImage.fetchCategoryImage().then((res) => {
+      let data = {
+        id: params.id,
+      };
+      CategoryImage.fetchCategoryImage(data).then((res) => {
         if (res.status === 200) {
           dispatch({
             type: constants("categoryImage").reducers.categoryImage
