@@ -1,0 +1,21 @@
+.Profile-Box-Text {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0px 6px;
+  font-family: Inter;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #ff8a00;
+}
+.dropdown-menu li {
+  margin: 10px;
+}
+.dropdown-menu {
+  width: 30px !important;
+}
