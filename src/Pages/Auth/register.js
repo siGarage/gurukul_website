@@ -187,6 +187,17 @@ function Register(props) {
                         </div>
                       ) : null}
                     </div>
+                    <div class="col-sm-12 col-md-2 contact_name_col mt-2">
+                      <label>Same as current</label>
+                      <input
+                        type="checkbox"
+                        id="isSameAddress"
+                        name="isSameAddress"
+                        checked={formik.values.isSameAddress}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
+                      />
+                    </div>
                     <div class="col-sm-12 col-md-10 contact_name_col mt-2">
                       <label>Parmanent Address</label>
                       <input
@@ -201,20 +212,9 @@ function Register(props) {
                       formik.touched.parmanent_address ? (
                         <div className="red_color">{formik.errors.phone}</div>
                       ) : null}
-                    </div>                    
-                    <div class="col-sm-12 col-md-2 contact_name_col mt-2">
-                      <label>Same as current</label>
-                      <input
-                        type="checkbox"
-                        id="isSameAddress"
-                        name="isSameAddress"
-                        checked={formik.values.isSameAddress}
-                        onChange={formik.handleChange}
-                        onBlur={formik.handleBlur}
-                      />
                     </div>
                     <div class="col-sm-12 col-md-12 contact_name_col mt-2">
-                    <label>Password</label>
+                      <label>Password</label>
                       <input
                         type="password"
                         class="contact_input"
