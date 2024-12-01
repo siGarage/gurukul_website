@@ -331,7 +331,7 @@ function Home(props) {
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="/courseType/673b6fcf903ff9606eb48243/Computer Training">
+                            <a href="/courseType/0/Computer Training">
                               Apply Now
                             </a>
                           </div>
@@ -382,7 +382,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="courses.html">
+                            <a href="/courseType/1/Online Accounting, Taxation(GST)">
                               Online Accounting, Taxation(GST)
                             </a>
                           </h3>
@@ -423,7 +423,7 @@ function Home(props) {
                           style={{ fontSize: "10px !important" }}
                         >
                           <h3>
-                            <a href="courses.html">
+                            <a href="/courseType/2/How to set up manufacturing/service/business unit">
                               How to set up manufacturing/service/business unit
                             </a>
                           </h3>
@@ -459,7 +459,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="courses.html">E-commerce</a>
+                            <a href="/courseType/3/E-commerce">E-commerce</a>
                           </h3>
                         </div>
                         {/* <div class="course_footer d-flex align-items-center justify-content-start">
@@ -492,7 +492,7 @@ function Home(props) {
                         </div>
                         <div class="rcourse_title">
                           <h3>
-                            <a href="courses.html">
+                            <a href="/courseType/4/Recruitment and Placement Services">
                               Recruitment and Placement Services
                             </a>
                           </h3>
@@ -527,7 +527,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="courses.html">Career Counselling</a>
+                            <a href="/courseType/5/Career Counselling">Career Counselling</a>
                           </h3>
                         </div>
                         {/* <div class="course_footer d-flex align-items-center justify-content-start">
@@ -560,7 +560,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="courses.html">Legal Services</a>
+                            <a href="/courseType/6/Legal Services">Legal Services</a>
                           </h3>
                         </div>
                         {/* <div class="course_footer d-flex align-items-center justify-content-start">
@@ -593,7 +593,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="courses.html">Financial Services</a>
+                            <a href="/courseType/7/Financial Services">Financial Services</a>
                           </h3>
                         </div>
                         {/* <div class="course_footer d-flex align-items-center justify-content-start">
@@ -626,7 +626,7 @@ function Home(props) {
                         </div>
                         <div class="course_title">
                           <h3>
-                            <a href="courses.html">
+                            <a href="/courseType/8/Social And Cultural Activities">
                               Social And Cultural Activities
                             </a>
                           </h3>
