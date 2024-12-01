@@ -115,7 +115,7 @@ function About(props) {
                       >
                         <div class="about_image">
                           <img
-                            src={`${process.env.REACT_APP_SERVERNAME}/images/${ci.image}`}
+                            src={`Testadmin.silicongarage.cloud/images/${ci.image}`}
                             alt=""
                             width="100%"
                             height="250px"
