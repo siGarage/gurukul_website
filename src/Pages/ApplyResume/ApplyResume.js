@@ -163,7 +163,7 @@ function ApplyResume(props) {
                               />
                               <label>{r.resume}</label>
                               <iframe
-                                src={`Testadmin.silicongarage.cloud/images/${r.resume}`}
+                                src={`https://Testadmin.silicongarage.cloud/images/${r.resume}`}
                                 width="100"
                                 height="100"
                               ></iframe>

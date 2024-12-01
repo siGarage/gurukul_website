@@ -115,7 +115,7 @@ function About(props) {
                       >
                         <div class="about_image">
                           <img
-                            src={`Testadmin.silicongarage.cloud/images/${ci.image}`}
+                            src={`https://Testadmin.silicongarage.cloud/images/${ci.image}`}
                             alt=""
                             width="100%"
                             height="250px"
