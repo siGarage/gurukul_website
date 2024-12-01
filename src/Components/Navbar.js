@@ -19,7 +19,7 @@ function Navbar(props) {
   //   setIsOpen(false);
   // };
   const SetMenu = (nevValue) => {
-    setNav(nevValue);
+    sessionStorage.setItem("nav", nevValue);
   };
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -88,7 +88,13 @@ function Navbar(props) {
                   </div>
                   <nav class="main_nav_contaner ml-auto">
                     <ul class="main_nav">
-                      <li class={nav == "home" ? "active" : ""}>
+                      <li
+                        class={
+                          sessionStorage.getItem("nav") == "home"
+                            ? "active"
+                            : ""
+                        }
+                      >
                         <a
                           onClick={() => {
                             SetMenu("home");
@@ -98,7 +104,13 @@ function Navbar(props) {
                           home
                         </a>
                       </li>
-                      <li class={nav == "about" ? "active" : ""}>
+                      <li
+                        class={
+                          sessionStorage.getItem("nav") == "about"
+                            ? "active"
+                            : ""
+                        }
+                      >
                         <a
                           onClick={() => {
                             SetMenu("about");
@@ -111,7 +123,13 @@ function Navbar(props) {
                       {/* <li>
                         <a href="courses.html">courses</a>
                       </li> */}
-                      <li class={nav == "contact" ? "active" : ""}>
+                      <li
+                        class={
+                          sessionStorage.getItem("nav") == "contact"
+                            ? "active"
+                            : ""
+                        }
+                      >
                         <a
                           onClick={() => {
                             SetMenu("contact");
