@@ -1,7 +1,7 @@
 import axios from "axios";
 // import Environment from "../enviroment";
 const instance = axios.create({
-  baseURL: `https://gurukul-website-beta.vercel.app`,
+  baseURL: `https://Testadmin.silicongarage.cloud`,
   headers: {
     "Content-Type": "application/json",
     authorization: `Bearer ${sessionStorage.getItem("accessToken")}`,
