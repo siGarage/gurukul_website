@@ -1,10 +1,10 @@
 import axios from "axios";
 const instance = axios.create({
-  baseURL: `${process.env.REACT_APP_SERVERNAME}`,
+  baseURL: `https://gurukul-website-beta.vercel.app`,
   headers: { "Content-Type": "application/json" },
 });
 const instanceFile = axios.create({
-  baseURL: `${process.env.REACT_APP_SERVERNAME}`,
+  baseURL: `https://gurukul-website-beta.vercel.app`,
   headers: { "Content-Type": "multipart/form-data" },
 });
 
