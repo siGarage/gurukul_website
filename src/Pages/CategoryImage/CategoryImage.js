@@ -116,7 +116,7 @@ function About(props) {
               : ""}
           </div>
           <div class="row about_row row-lg-eq-height">
-            <div className="about_title" style={{ marginBottom: "20px" }}>
+            <div className="about_title_p" style={{ marginBottom: "20px" }}>
               In which category you want to apply ....
             </div>
             {categoryImage?.length > 0
