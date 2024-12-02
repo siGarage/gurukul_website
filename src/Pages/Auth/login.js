@@ -56,7 +56,7 @@ function Login(props) {
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3">
-            <div className="login_form_container">
+            <div className="login_container">
               <img src={icon} className="login_img" />
             </div>
           </div>
