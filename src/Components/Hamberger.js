@@ -79,6 +79,14 @@ function NavScrollExample(props) {
           >
             <Link style={{ color: "white", fontSize: "18px" }}>Login</Link>
           </div>
+          <div
+            onClick={(e) => {
+              closeNav(e);
+              selectNav("/register");
+            }}
+          >
+            <Link style={{ color: "white", fontSize: "18px" }}>Register</Link>
+          </div>
           {!logged_in ? (
             ""
           ) : (
