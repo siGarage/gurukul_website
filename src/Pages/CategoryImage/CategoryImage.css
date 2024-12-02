@@ -1100,9 +1100,12 @@ ul.b {
     height: auto;
   }
   .about_title {
-    font-size: 12px;
+    font-size: 15px;
   }
   .about_title_p {
     font-size: 8px;
+  }
+  .about{
+	padding-top: 20px;
   }
 }
