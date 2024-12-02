@@ -1,6 +1,6 @@
 import axios from "axios";
 const instance = axios.create({
-  baseURL: `${process.env.REACT_APP_SERVERNAME}`,
+  baseURL: `https://Testadmin.silicongarage.cloud`,
   headers: {
     "Content-Type": "application/json",
     authorization: `Bearer ${sessionStorage.getItem("accessToken")}`,

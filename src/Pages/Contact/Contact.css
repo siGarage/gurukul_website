@@ -1315,6 +1315,6 @@ section
 		display: none;
 	}
 	.login_form_container{
-		margin-top: 20px;
+		padding-top: 20px;
 	}
 }
