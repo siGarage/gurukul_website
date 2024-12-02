@@ -60,7 +60,7 @@ function Register(props) {
         formData.append(value, values[value]);
       }
       const api = axios.create({
-        baseURL: process.env.REACT_APP_SERVERNAME,
+        baseURL: `https://Testadmin.silicongarage.cloud`,
       });
       // if (values.isSameAddress) {
       const response = await api.post("/userCreate", formData, {
