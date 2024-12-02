@@ -78,7 +78,7 @@ function MyResume(props) {
                             <td>{f.subModule}</td>
                             <td>
                               <iframe
-                                src={`${process.env.REACT_APP_SERVERNAME}/images/${f.resume}`}
+                                src={`https://Testadmin.silicongarage.cloud/images/${f.resume}`}
                                 width="100%"
                                 height="200"
                               ></iframe>
