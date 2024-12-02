@@ -96,7 +96,7 @@ function About(props) {
               </div>
             </div>
           </div> */}
-          <div>
+          <div className="about_title">
             {params.id == 1
               ? "ONLINE ACCOUNTING, DATA SERVER-BASED TALLY ERP-9, LOGIC, AND OTHER SOFTWARE, DATA SECURITY HAVING ITS OWN DATA SERVER, BACK-UP FACILITY WITH THE CLIENT ALSO AVAILABLE."
               : params.id == 0
