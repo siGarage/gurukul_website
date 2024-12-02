@@ -81,7 +81,7 @@ function Navbar(props) {
                 <div class="header_content d-flex flex-row align-items-center justify-content-between">
                   <Hamberger />
                   <div class="logo_container">
-                    <a href="#">
+                    <a href="/home">
                       <div class="logo_content d-flex flex-row align-items-end justify-content-start">
                         <div className="logo_img">
                           <img src={icon} alt="" width="80px" height="80px" />

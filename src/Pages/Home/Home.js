@@ -982,7 +982,7 @@ function Home(props) {
           </div>
         </div>
         <div class="button join_button">
-          <a href="#">
+          <a href="/register">
             register now
             <div class="button_arrow">
               <i class="fa fa-angle-right" aria-hidden="true"></i>

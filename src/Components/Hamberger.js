@@ -83,6 +83,17 @@ function NavScrollExample(props) {
             ""
           ) : (
             <>
+              <div
+                onClick={(e) => {
+                  closeNav(e);
+                  selectNav("/myResume");
+                }}
+              >
+                <Link style={{ color: "white", fontSize: "18px" }}>
+                  {" "}
+                  My Resume
+                </Link>
+              </div>
               <div>
                 <Link
                   onClick={() => logOut()}
