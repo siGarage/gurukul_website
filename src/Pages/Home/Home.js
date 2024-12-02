@@ -410,7 +410,7 @@ function Home(props) {
                       <div class="course_body">
                         <div class="course_header d-flex flex-row align-items-center justify-content-start">
                           <div class="course_tag">
-                            <a href="/courseType/2/How to set up manufacturing/service/business unit">
+                            <a href="/courseType/2/How to set up manufacturing_service_business unit"> 
                               Apply Now
                             </a>
                           </div>

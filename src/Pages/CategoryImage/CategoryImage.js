@@ -96,6 +96,25 @@ function About(props) {
               </div>
             </div>
           </div> */}
+          <div>
+            {params.id == 1
+              ? "ONLINE ACCOUNTING, DATA SERVER-BASED TALLY ERP-9, LOGIC, AND OTHER SOFTWARE, DATA SECURITY HAVING ITS OWN DATA SERVER, BACK-UP FACILITY WITH THE CLIENT ALSO AVAILABLE."
+              : params.id == 0
+              ? "SOFTWARE"
+              : params.id == 2
+              ? "TOTAL SUPPORT TO SET THE INDUSTRY IN THE MANUFACTURING/ SERVICE SECTOR"
+              : params.id == 3
+              ? "E-commerce"
+              : params.id == 5
+              ? "CAREER COUNSELLING FROM 9th CLASS ONWARD STUDENTS In-house career counseling of students after interaction with parents in different streams"
+              : params.id == 6
+              ? "Legal Services"
+              : params.id == 7
+              ? "Guidance in"
+              : params.id == 8
+              ? "SERVICE OF SOCIETY AND NATURE THROUGH HIM NATURE CARE SOCIETY (REGD)"
+              : ""}
+          </div>
           <div class="row about_row row-lg-eq-height">
             <div className="about_title" style={{ marginBottom: "20px" }}>
               In which category you want to apply ....
