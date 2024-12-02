@@ -26,7 +26,7 @@ function NavScrollExample(props) {
   };
   const logOut = () => {
     localStorage.clear();
-    window.location.reload("/login");
+    window.location.reload("/home");
   };
   const show = (e) => {
     e.preventDefault();

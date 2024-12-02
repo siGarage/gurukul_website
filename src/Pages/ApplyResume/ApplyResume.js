@@ -115,7 +115,7 @@ function ApplyResume(props) {
                 type: constants("resume").reducers.resume.AddToResume,
                 payload: { Resume: res.data },
               });
-              // window.location.href = "/myResume";
+              window.location.href = "/myResume";
             } else {
               toast.error("Server Side Error");
             }
