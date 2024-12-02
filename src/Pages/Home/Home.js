@@ -950,7 +950,7 @@ function Home(props) {
         <div class="container">
           <div class="row">
             <div class="col">
-              <div class="video_container_outer">
+              {/* <div class="video_container_outer">
                 <div class="video_container">
                   <video
                     id="vid1"
@@ -959,7 +959,7 @@ function Home(props) {
                     data-setup='{ "poster": "images/video.jpg", "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/5_MRXyYjHDk"}], "youtube": { "iv_load_policy": 1 } }'
                   ></video>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

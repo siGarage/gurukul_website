@@ -40,6 +40,9 @@ function NavScrollExample(props) {
     setShowCat(false);
     closeNav(e);
   };
+  const selectNav = (v) => {
+    window.location.href = v;
+  };
 
   return (
     <>
@@ -52,67 +55,52 @@ function NavScrollExample(props) {
           <Link className="closebtn" onClick={cross}>
             &times;
           </Link>
-          <div onClick={closeNav}>
-            <Link to="/" style={{ color: "white", fontSize: "18px" }}>
-              Home
-            </Link>
+          <div
+            onClick={(e) => {
+              closeNav(e);
+              selectNav("/home");
+            }}
+          >
+            <Link style={{ color: "white", fontSize: "18px" }}>Home</Link>
           </div>
-          <div onClick={show}>
-            <Link style={{ color: "white", fontSize: "18px" }}>Category</Link>
+          <div
+            onClick={(e) => {
+              closeNav(e);
+              selectNav("/about");
+            }}
+          >
+            <Link style={{ color: "white", fontSize: "18px" }}>About</Link>
           </div>
-          {showCat
-            ? category?.length > 0
-              ? category?.map((cat) => {
-                  return (
-                    <div onClick={closeNav}>
-                      <ul style={{ marginLeft: "20px", marginBottom: "0px" }}>
-                        <li>
-                          <Link
-                            className="categoryham"
-                            to={`/shop?type=${cat}`}
-                            style={{
-                              color: "white",
-                              fontSize: "18px",
-                              fontFamily: "Abhaya Libre !important",
-                            }}
-                          >
-                            {cat}
-                          </Link>
-                        </li>
-                      </ul>
-                    </div>
-                    // <div onClick={closeNav}>
-                    //   <Link
-                    //     to={`/shop?type=${cat}`}
-                    //     style={{ color: "white", fontSize: "18px" }}
-                    //   >
-                    //     {cat}
-                    //   </Link>
-                    // </div>
-                  );
-                })
-              : ""
-            : ""}
-          {/* <div onClick={closeNav}><Link  to="/customsize" style={{color:'white',fontSize:'18px',width:'250px'}}>Customize Size</Link></div> */}
-          <div onClick={closeNav}>
-            <Link to="/contact" style={{ color: "white", fontSize: "18px" }}>
-              Contact
-            </Link>
-            {!logged_in ? (
-              ""
-            ) : (
-              <>
-                <Link to="/order" style={{ color: "white", fontSize: "18px" }}>
-                  Orders
-                </Link>
+          <div
+            onClick={(e) => {
+              closeNav(e);
+              selectNav("/login");
+            }}
+          >
+            <Link style={{ color: "white", fontSize: "18px" }}>Login</Link>
+          </div>
+          {!logged_in ? (
+            ""
+          ) : (
+            <>
+              <div>
                 <Link
                   onClick={() => logOut()}
                   style={{ color: "white", fontSize: "18px" }}
                 >
                   Logout
                 </Link>
-              </>
-            )}
+              </div>
+            </>
+          )}
+          {/* <div onClick={closeNav}><Link  to="/customsize" style={{color:'white',fontSize:'18px',width:'250px'}}>Customize Size</Link></div> */}
+          <div
+            onClick={(e) => {
+              closeNav(e);
+              selectNav("/contact");
+            }}
+          >
+            <Link style={{ color: "white", fontSize: "18px" }}>Contact</Link>
           </div>
         </div>
 

@@ -410,7 +410,7 @@ section {
   transition: all 200ms ease;
 }
 .header.scrolled .header_content {
-  height: 70px;
+  height: 100px;
 }
 
 /*********************************
